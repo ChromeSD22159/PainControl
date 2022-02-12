@@ -7,25 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60FEE4427B3A9BB000C2F38 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FEE4327B3A9BB000C2F38 /* TabBar.swift */; };
+		B60FEE4627B3B0DB000C2F38 /* HeaderViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FEE4527B3B0DB000C2F38 /* HeaderViewBuilder.swift */; };
+		B60FEE4827B3BD1E000C2F38 /* IconBubleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FEE4727B3BD1E000C2F38 /* IconBubleBackground.swift */; };
+		B60FEE4A27B3D951000C2F38 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FEE4927B3D951000C2F38 /* SettingsView.swift */; };
+		B60FEE4D27B3ED2E000C2F38 /* NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FEE4C27B3ED2E000C2F38 /* NavigationLink.swift */; };
+		B60FEE4F27B4354C000C2F38 /* notificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FEE4E27B4354C000C2F38 /* notificationManager.swift */; };
+		B60FEE5127B510D1000C2F38 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FEE5027B510D1000C2F38 /* LaunchScreen.swift */; };
+		B60FEE5427B52623000C2F38 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FEE5327B52623000C2F38 /* CardView.swift */; };
+		B60FEE5727B55C28000C2F38 /* CardView02.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FEE5627B55C28000C2F38 /* CardView02.swift */; };
+		B60FEE5927B56330000C2F38 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FEE5827B56330000C2F38 /* Test.swift */; };
+		B641DF9227B1873C00F43DA5 /* editDrugSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641DF9127B1873C00F43DA5 /* editDrugSheet.swift */; };
+		B641DF9427B2540F00F43DA5 /* AppManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641DF9327B2540F00F43DA5 /* AppManagerModel.swift */; };
+		B6596F2327AEB52500A4AD65 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6596F2227AEB52500A4AD65 /* WidgetKit.framework */; };
+		B6596F2527AEB52500A4AD65 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6596F2427AEB52500A4AD65 /* SwiftUI.framework */; };
+		B6596F2827AEB52500A4AD65 /* PainControlWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6596F2727AEB52500A4AD65 /* PainControlWidget.swift */; };
+		B6596F2A27AEB52700A4AD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6596F2927AEB52700A4AD65 /* Assets.xcassets */; };
+		B6596F2E27AEB52700A4AD65 /* PainControlWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B6596F2027AEB52500A4AD65 /* PainControlWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6596F3727AEC45700A4AD65 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6596F3627AEC45700A4AD65 /* LineGraph.swift */; };
+		B6596F7927AFF64900A4AD65 /* flashIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6596F7827AFF64900A4AD65 /* flashIcon.swift */; };
 		B667307227ABED350060A2ED /* PainControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667307127ABED350060A2ED /* PainControlApp.swift */; };
-		B667307427ABED350060A2ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667307327ABED350060A2ED /* ContentView.swift */; };
+		B667307427ABED350060A2ED /* x_ContentTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667307327ABED350060A2ED /* x_ContentTView.swift */; };
 		B667307627ABED360060A2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B667307527ABED360060A2ED /* Assets.xcassets */; };
 		B667307927ABED360060A2ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B667307827ABED360060A2ED /* Preview Assets.xcassets */; };
 		B667307B27ABED360060A2ED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667307A27ABED360060A2ED /* Persistence.swift */; };
 		B667307E27ABED360060A2ED /* PainControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B667307C27ABED360060A2ED /* PainControl.xcdatamodeld */; };
+		B667308527ABEDCB0060A2ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667308427ABEDCB0060A2ED /* ContentView.swift */; };
+		B667308727ABEE380060A2ED /* Extention in Resources */ = {isa = PBXBuildFile; fileRef = B667308627ABEE380060A2ED /* Extention */; };
+		B667308A27ABEE6D0060A2ED /* ViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667308927ABEE6D0060A2ED /* ViewExtention.swift */; };
+		B667308E27ABEEA70060A2ED /* newIntakeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667308D27ABEEA70060A2ED /* newIntakeSheet.swift */; };
+		B667309027ABEEDD0060A2ED /* newDrugSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667308F27ABEEDD0060A2ED /* newDrugSheet.swift */; };
+		B667309227ABEEFE0060A2ED /* DataButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667309127ABEEFE0060A2ED /* DataButton.swift */; };
+		B667309527ABEF1D0060A2ED /* DrugButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667309427ABEF1D0060A2ED /* DrugButton.swift */; };
+		B667309727ABEF450060A2ED /* intakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667309627ABEF450060A2ED /* intakeViewModel.swift */; };
+		B667309927ABEF5B0060A2ED /* drugViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667309827ABEF5B0060A2ED /* drugViewModel.swift */; };
+		B66730A927AC250D0060A2ED /* tabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66730A827AC250D0060A2ED /* tabBarViewModel.swift */; };
+		B66730AB27AC27380060A2ED /* drugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66730AA27AC27380060A2ED /* drugView.swift */; };
+		B66730AD27AD42B20060A2ED /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66730AC27AD42B20060A2ED /* homeView.swift */; };
+		B66730AF27AD43430060A2ED /* inTakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66730AE27AD43430060A2ED /* inTakeView.swift */; };
+		B66730B127AD51740060A2ED /* inTakeSheetDrugButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66730B027AD51740060A2ED /* inTakeSheetDrugButton.swift */; };
+		B6A4E58B27B5D02C005012F0 /* NavLinkNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A4E58A27B5D02C005012F0 /* NavLinkNotifications.swift */; };
+		B6A4E58D27B6D65B005012F0 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A4E58C27B6D65B005012F0 /* Hexagon.swift */; };
+		B6A4E58F27B78B3A005012F0 /* viewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A4E58E27B78B3A005012F0 /* viewModels.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B6596F2C27AEB52700A4AD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B667306627ABED350060A2ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6596F1F27AEB52500A4AD65;
+			remoteInfo = PainControlWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6596F3227AEB52700A4AD65 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B6596F2E27AEB52700A4AD65 /* PainControlWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B60FEE4327B3A9BB000C2F38 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		B60FEE4527B3B0DB000C2F38 /* HeaderViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewBuilder.swift; sourceTree = "<group>"; };
+		B60FEE4727B3BD1E000C2F38 /* IconBubleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBubleBackground.swift; sourceTree = "<group>"; };
+		B60FEE4927B3D951000C2F38 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B60FEE4C27B3ED2E000C2F38 /* NavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLink.swift; sourceTree = "<group>"; };
+		B60FEE4E27B4354C000C2F38 /* notificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationManager.swift; sourceTree = "<group>"; };
+		B60FEE5027B510D1000C2F38 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		B60FEE5327B52623000C2F38 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B60FEE5627B55C28000C2F38 /* CardView02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView02.swift; sourceTree = "<group>"; };
+		B60FEE5827B56330000C2F38 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		B641DF9127B1873C00F43DA5 /* editDrugSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editDrugSheet.swift; sourceTree = "<group>"; };
+		B641DF9327B2540F00F43DA5 /* AppManagerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManagerModel.swift; sourceTree = "<group>"; };
+		B6596F2027AEB52500A4AD65 /* PainControlWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PainControlWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6596F2227AEB52500A4AD65 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B6596F2427AEB52500A4AD65 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B6596F2727AEB52500A4AD65 /* PainControlWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainControlWidget.swift; sourceTree = "<group>"; };
+		B6596F2927AEB52700A4AD65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6596F2B27AEB52700A4AD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6596F3427AEBC2000A4AD65 /* PainControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PainControl.entitlements; sourceTree = "<group>"; };
+		B6596F3627AEC45700A4AD65 /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		B6596F7827AFF64900A4AD65 /* flashIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flashIcon.swift; sourceTree = "<group>"; };
 		B667306E27ABED350060A2ED /* PainControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PainControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B667307127ABED350060A2ED /* PainControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainControlApp.swift; sourceTree = "<group>"; };
-		B667307327ABED350060A2ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B667307327ABED350060A2ED /* x_ContentTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = x_ContentTView.swift; sourceTree = "<group>"; };
 		B667307527ABED360060A2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B667307827ABED360060A2ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B667307A27ABED360060A2ED /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B667307D27ABED360060A2ED /* PainControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PainControl.xcdatamodel; sourceTree = "<group>"; };
+		B667308427ABEDCB0060A2ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B667308627ABEE380060A2ED /* Extention */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extention; sourceTree = "<group>"; };
+		B667308927ABEE6D0060A2ED /* ViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtention.swift; sourceTree = "<group>"; };
+		B667308D27ABEEA70060A2ED /* newIntakeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newIntakeSheet.swift; sourceTree = "<group>"; };
+		B667308F27ABEEDD0060A2ED /* newDrugSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newDrugSheet.swift; sourceTree = "<group>"; };
+		B667309127ABEEFE0060A2ED /* DataButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataButton.swift; sourceTree = "<group>"; };
+		B667309427ABEF1D0060A2ED /* DrugButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugButton.swift; sourceTree = "<group>"; };
+		B667309627ABEF450060A2ED /* intakeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intakeViewModel.swift; sourceTree = "<group>"; };
+		B667309827ABEF5B0060A2ED /* drugViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drugViewModel.swift; sourceTree = "<group>"; };
+		B66730A827AC250D0060A2ED /* tabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewModel.swift; sourceTree = "<group>"; };
+		B66730AA27AC27380060A2ED /* drugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drugView.swift; sourceTree = "<group>"; };
+		B66730AC27AD42B20060A2ED /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		B66730AE27AD43430060A2ED /* inTakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inTakeView.swift; sourceTree = "<group>"; };
+		B66730B027AD51740060A2ED /* inTakeSheetDrugButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inTakeSheetDrugButton.swift; sourceTree = "<group>"; };
+		B6A4E58A27B5D02C005012F0 /* NavLinkNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkNotifications.swift; sourceTree = "<group>"; };
+		B6A4E58C27B6D65B005012F0 /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
+		B6A4E58E27B78B3A005012F0 /* viewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B6596F1D27AEB52500A4AD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6596F2527AEB52500A4AD65 /* SwiftUI.framework in Frameworks */,
+				B6596F2327AEB52500A4AD65 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B667306B27ABED350060A2ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,10 +143,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B60FEE4B27B3ED0F000C2F38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B60FEE4C27B3ED2E000C2F38 /* NavigationLink.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B60FEE5227B5260D000C2F38 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				B66730AC27AD42B20060A2ED /* homeView.swift */,
+				B60FEE5327B52623000C2F38 /* CardView.swift */,
+				B60FEE5627B55C28000C2F38 /* CardView02.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		B60FEE5527B52FC9000C2F38 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B641DF8E27B1383000F43DA5 /* Drug */ = {
+			isa = PBXGroup;
+			children = (
+				B667309427ABEF1D0060A2ED /* DrugButton.swift */,
+				B667308F27ABEEDD0060A2ED /* newDrugSheet.swift */,
+				B641DF9127B1873C00F43DA5 /* editDrugSheet.swift */,
+				B66730AA27AC27380060A2ED /* drugView.swift */,
+			);
+			path = Drug;
+			sourceTree = "<group>";
+		};
+		B642145527B585BB004857C5 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				B667307A27ABED360060A2ED /* Persistence.swift */,
+				B667307C27ABED360060A2ED /* PainControl.xcdatamodeld */,
+			);
+			name = shared;
+			sourceTree = "<group>";
+		};
+		B6596F2127AEB52500A4AD65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6596F2227AEB52500A4AD65 /* WidgetKit.framework */,
+				B6596F2427AEB52500A4AD65 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6596F2627AEB52500A4AD65 /* PainControlWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B6596F2727AEB52500A4AD65 /* PainControlWidget.swift */,
+				B6596F2927AEB52700A4AD65 /* Assets.xcassets */,
+				B6596F2B27AEB52700A4AD65 /* Info.plist */,
+			);
+			path = PainControlWidget;
+			sourceTree = "<group>";
+		};
+		B6596F3527AEC43E00A4AD65 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B6596F3627AEC45700A4AD65 /* LineGraph.swift */,
+				B6596F7827AFF64900A4AD65 /* flashIcon.swift */,
+				B60FEE4727B3BD1E000C2F38 /* IconBubleBackground.swift */,
+				B6A4E58C27B6D65B005012F0 /* Hexagon.swift */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
 		B667306527ABED350060A2ED = {
 			isa = PBXGroup;
 			children = (
+				B642145527B585BB004857C5 /* shared */,
 				B667307027ABED350060A2ED /* PainControl */,
+				B6596F2627AEB52500A4AD65 /* PainControlWidget */,
+				B6596F2127AEB52500A4AD65 /* Frameworks */,
 				B667306F27ABED350060A2ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				B667306E27ABED350060A2ED /* PainControl.app */,
+				B6596F2027AEB52500A4AD65 /* PainControlWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,11 +242,16 @@
 			isa = PBXGroup;
 			children = (
 				B667307127ABED350060A2ED /* PainControlApp.swift */,
-				B667307327ABED350060A2ED /* ContentView.swift */,
+				B6596F3427AEBC2000A4AD65 /* PainControl.entitlements */,
+				B6596F3527AEC43E00A4AD65 /* Graphics */,
+				B667307327ABED350060A2ED /* x_ContentTView.swift */,
+				B60FEE5527B52FC9000C2F38 /* CoreData */,
+				B667309A27ABEF650060A2ED /* ViewModel */,
+				B667308B27ABEE760060A2ED /* View */,
+				B667308827ABEE550060A2ED /* Extention */,
 				B667307527ABED360060A2ED /* Assets.xcassets */,
-				B667307A27ABED360060A2ED /* Persistence.swift */,
-				B667307C27ABED360060A2ED /* PainControl.xcdatamodeld */,
 				B667307727ABED360060A2ED /* Preview Content */,
+				B60FEE5827B56330000C2F38 /* Test.swift */,
 			);
 			path = PainControl;
 			sourceTree = "<group>";
@@ -68,14 +259,97 @@
 		B667307727ABED360060A2ED /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				B667308627ABEE380060A2ED /* Extention */,
 				B667307827ABED360060A2ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B667308827ABEE550060A2ED /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				B60FEE4B27B3ED0F000C2F38 /* Views */,
+				B667308927ABEE6D0060A2ED /* ViewExtention.swift */,
+				B60FEE4527B3B0DB000C2F38 /* HeaderViewBuilder.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		B667308B27ABEE760060A2ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B60FEE5027B510D1000C2F38 /* LaunchScreen.swift */,
+				B60FEE5227B5260D000C2F38 /* home */,
+				B667308C27ABEE8C0060A2ED /* Settings */,
+				B641DF8E27B1383000F43DA5 /* Drug */,
+				B6A4E58827B5CF46005012F0 /* InTake */,
+				B60FEE4327B3A9BB000C2F38 /* TabBar.swift */,
+				B667308427ABEDCB0060A2ED /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B667308C27ABEE8C0060A2ED /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B60FEE4927B3D951000C2F38 /* SettingsView.swift */,
+				B6A4E58927B5CFA7005012F0 /* NavigationLinkSites */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B667309A27ABEF650060A2ED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B667309627ABEF450060A2ED /* intakeViewModel.swift */,
+				B6A4E58E27B78B3A005012F0 /* viewModels.swift */,
+				B60FEE4E27B4354C000C2F38 /* notificationManager.swift */,
+				B66730A827AC250D0060A2ED /* tabBarViewModel.swift */,
+				B667309827ABEF5B0060A2ED /* drugViewModel.swift */,
+				B641DF9327B2540F00F43DA5 /* AppManagerModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B6A4E58827B5CF46005012F0 /* InTake */ = {
+			isa = PBXGroup;
+			children = (
+				B667309127ABEEFE0060A2ED /* DataButton.swift */,
+				B667308D27ABEEA70060A2ED /* newIntakeSheet.swift */,
+				B66730B027AD51740060A2ED /* inTakeSheetDrugButton.swift */,
+				B66730AE27AD43430060A2ED /* inTakeView.swift */,
+			);
+			path = InTake;
+			sourceTree = "<group>";
+		};
+		B6A4E58927B5CFA7005012F0 /* NavigationLinkSites */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4E58A27B5D02C005012F0 /* NavLinkNotifications.swift */,
+			);
+			path = NavigationLinkSites;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B6596F1F27AEB52500A4AD65 /* PainControlWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6596F2F27AEB52700A4AD65 /* Build configuration list for PBXNativeTarget "PainControlWidgetExtension" */;
+			buildPhases = (
+				B6596F1C27AEB52500A4AD65 /* Sources */,
+				B6596F1D27AEB52500A4AD65 /* Frameworks */,
+				B6596F1E27AEB52500A4AD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PainControlWidgetExtension;
+			productName = PainControlWidgetExtension;
+			productReference = B6596F2027AEB52500A4AD65 /* PainControlWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		B667306D27ABED350060A2ED /* PainControl */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B667308127ABED360060A2ED /* Build configuration list for PBXNativeTarget "PainControl" */;
@@ -83,10 +357,12 @@
 				B667306A27ABED350060A2ED /* Sources */,
 				B667306B27ABED350060A2ED /* Frameworks */,
 				B667306C27ABED350060A2ED /* Resources */,
+				B6596F3227AEB52700A4AD65 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B6596F2D27AEB52700A4AD65 /* PBXTargetDependency */,
 			);
 			name = PainControl;
 			productName = PainControl;
@@ -103,6 +379,9 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					B6596F1F27AEB52500A4AD65 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					B667306D27ABED350060A2ED = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -115,6 +394,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = B667306527ABED350060A2ED;
 			productRefGroup = B667306F27ABED350060A2ED /* Products */;
@@ -122,37 +402,147 @@
 			projectRoot = "";
 			targets = (
 				B667306D27ABED350060A2ED /* PainControl */,
+				B6596F1F27AEB52500A4AD65 /* PainControlWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B6596F1E27AEB52500A4AD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6596F2A27AEB52700A4AD65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B667306C27ABED350060A2ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B667307927ABED360060A2ED /* Preview Assets.xcassets in Resources */,
 				B667307627ABED360060A2ED /* Assets.xcassets in Resources */,
+				B667308727ABEE380060A2ED /* Extention in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B6596F1C27AEB52500A4AD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6596F2827AEB52500A4AD65 /* PainControlWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B667306A27ABED350060A2ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60FEE5127B510D1000C2F38 /* LaunchScreen.swift in Sources */,
+				B667309927ABEF5B0060A2ED /* drugViewModel.swift in Sources */,
+				B6A4E58B27B5D02C005012F0 /* NavLinkNotifications.swift in Sources */,
+				B66730B127AD51740060A2ED /* inTakeSheetDrugButton.swift in Sources */,
 				B667307B27ABED360060A2ED /* Persistence.swift in Sources */,
+				B66730AF27AD43430060A2ED /* inTakeView.swift in Sources */,
+				B6596F3727AEC45700A4AD65 /* LineGraph.swift in Sources */,
+				B60FEE4627B3B0DB000C2F38 /* HeaderViewBuilder.swift in Sources */,
+				B667308527ABEDCB0060A2ED /* ContentView.swift in Sources */,
+				B60FEE5927B56330000C2F38 /* Test.swift in Sources */,
+				B66730AD27AD42B20060A2ED /* homeView.swift in Sources */,
+				B667309727ABEF450060A2ED /* intakeViewModel.swift in Sources */,
+				B6596F7927AFF64900A4AD65 /* flashIcon.swift in Sources */,
+				B667309227ABEEFE0060A2ED /* DataButton.swift in Sources */,
+				B667309527ABEF1D0060A2ED /* DrugButton.swift in Sources */,
+				B66730A927AC250D0060A2ED /* tabBarViewModel.swift in Sources */,
+				B60FEE4427B3A9BB000C2F38 /* TabBar.swift in Sources */,
+				B60FEE5427B52623000C2F38 /* CardView.swift in Sources */,
+				B667309027ABEEDD0060A2ED /* newDrugSheet.swift in Sources */,
+				B60FEE4A27B3D951000C2F38 /* SettingsView.swift in Sources */,
+				B60FEE4827B3BD1E000C2F38 /* IconBubleBackground.swift in Sources */,
+				B60FEE5727B55C28000C2F38 /* CardView02.swift in Sources */,
+				B641DF9427B2540F00F43DA5 /* AppManagerModel.swift in Sources */,
+				B6A4E58D27B6D65B005012F0 /* Hexagon.swift in Sources */,
+				B667308E27ABEEA70060A2ED /* newIntakeSheet.swift in Sources */,
 				B667307E27ABED360060A2ED /* PainControl.xcdatamodeld in Sources */,
-				B667307427ABED350060A2ED /* ContentView.swift in Sources */,
+				B60FEE4F27B4354C000C2F38 /* notificationManager.swift in Sources */,
+				B66730AB27AC27380060A2ED /* drugView.swift in Sources */,
+				B667308A27ABEE6D0060A2ED /* ViewExtention.swift in Sources */,
+				B667307427ABED350060A2ED /* x_ContentTView.swift in Sources */,
+				B60FEE4D27B3ED2E000C2F38 /* NavigationLink.swift in Sources */,
+				B641DF9227B1873C00F43DA5 /* editDrugSheet.swift in Sources */,
+				B6A4E58F27B78B3A005012F0 /* viewModels.swift in Sources */,
 				B667307227ABED350060A2ED /* PainControlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B6596F2D27AEB52700A4AD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6596F1F27AEB52500A4AD65 /* PainControlWidgetExtension */;
+			targetProxy = B6596F2C27AEB52700A4AD65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B6596F3027AEB52700A4AD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZD275Y62U7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PainControlWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PainControlWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FK.PainControl.PainControlWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6596F3127AEB52700A4AD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZD275Y62U7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PainControlWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PainControlWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FK.PainControl.PainControlWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B667307F27ABED360060A2ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -272,8 +662,11 @@
 		B667308227ABED360060A2ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = PainControl/PainControl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PainControl/Preview Content\"";
@@ -294,15 +687,18 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B667308327ABED360060A2ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = PainControl/PainControl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PainControl/Preview Content\"";
@@ -323,13 +719,22 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B6596F2F27AEB52700A4AD65 /* Build configuration list for PBXNativeTarget "PainControlWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6596F3027AEB52700A4AD65 /* Debug */,
+				B6596F3127AEB52700A4AD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B667306927ABED350060A2ED /* Build configuration list for PBXProject "PainControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
