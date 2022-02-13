@@ -34,7 +34,7 @@ class drugViewModel: ObservableObject {
     
     init(){
         // init test Data when no Drugs in CoreData
-        initTestData()
+       //initTestData()
     }
 
     

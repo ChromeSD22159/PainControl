@@ -114,22 +114,29 @@ struct ButtonRow: View {
                                 Text("Schmerzmittel")
                             }
                         })
-                        .foregroundColor(Color("PainControlCardText"))
                         .padding(.vertical, 10)
                         .padding(.horizontal, 20.0)
                         .lineaGradientBackground(
                             colors: [
-                                .teal.opacity(0.3),
-                                .teal.opacity(0.4),
-                                .teal.opacity(0.5),
-                                .teal.opacity(0.5),
-                                .teal.opacity(0.5),
-                                .teal.opacity(0.4),
-                                .teal.opacity(0.3),
+                                Color("DrugRow").opacity(0.1),
+                                Color("DrugRow").opacity(0.6),
+                                Color("DrugRow").opacity(0.7),
+                                Color("DrugRow").opacity(1),
+                                Color("DrugRow").opacity(1),
+                                Color("DrugRow").opacity(1),
+                                Color("DrugRow").opacity(0.7),
+                                Color("DrugRow").opacity(0.6),
+                                Color("DrugRow").opacity(0.1),
                             ],
                             startPoint: .topLeading,
-                            endPoint: .bottomTrailing)
-                        .cornerRadius(20)
+                            endPoint: .bottomTrailing
+                        )
+                        .foregroundColor(Color("PainControlCardText"))
+                        .border(
+                            .white.opacity(0.06),
+                            width: 2,
+                            cornerRadius: 20
+                        )
                         
                         Spacer()
                         
@@ -144,22 +151,29 @@ struct ButtonRow: View {
                                     .matchedGeometryEffect(id: "icon", in: namespace)
                             }
                         })
-                        .foregroundColor(Color("PainControlCardText"))
                         .padding(.vertical, 10)
                         .padding(.horizontal, 20.0)
                         .lineaGradientBackground(
                             colors: [
-                                .teal.opacity(0.3),
-                                .teal.opacity(0.4),
-                                .teal.opacity(0.5),
-                                .teal.opacity(0.5),
-                                .teal.opacity(0.5),
-                                .teal.opacity(0.4),
-                                .teal.opacity(0.3),
+                                Color("DrugRow").opacity(0.1),
+                                Color("DrugRow").opacity(0.6),
+                                Color("DrugRow").opacity(0.7),
+                                Color("DrugRow").opacity(1),
+                                Color("DrugRow").opacity(1),
+                                Color("DrugRow").opacity(1),
+                                Color("DrugRow").opacity(0.7),
+                                Color("DrugRow").opacity(0.6),
+                                Color("DrugRow").opacity(0.1),
                             ],
                             startPoint: .topLeading,
-                            endPoint: .bottomTrailing)
-                        .cornerRadius(20)
+                            endPoint: .bottomTrailing
+                        )
+                        .foregroundColor(Color("PainControlCardText"))
+                        .border(
+                            .white.opacity(0.06),
+                            width: 2,
+                            cornerRadius: 20
+                        )
                         
                     }
                     Spacer()
@@ -313,6 +327,7 @@ struct DrugListRow: View{
             }
             .padding()
             .foregroundColor(.primary)
+            /*
             .lineaGradientBackground(
                 colors: [
                     .teal.opacity(0.3),
@@ -325,13 +340,40 @@ struct DrugListRow: View{
                 ],
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing)
+             */
             .cornerRadius(20)
+            
+            .lineaGradientBackground(
+                colors: [
+                    Color("DrugRow").opacity(0.1),
+                    Color("DrugRow").opacity(0.6),
+                    Color("DrugRow").opacity(0.7),
+                    Color("DrugRow").opacity(1),
+                    Color("DrugRow").opacity(1),
+                    Color("DrugRow").opacity(1),
+                    Color("DrugRow").opacity(0.7),
+                    Color("DrugRow").opacity(0.6),
+                    Color("DrugRow").opacity(0.1),
+                ],
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
+            .foregroundColor(Color("PainControlCardText"))
+            .border(
+                .white.opacity(0.06),
+                width: 2,
+                cornerRadius: 20
+            )
+            
             .sheet(isPresented: $drugManager.isEditDrugSheet) {
                 editDrugSheet()
             }
         }
     }
 }
+
+
+
 
 struct ListBody: View {
     var drug:FetchedResults<Drug>.Element
